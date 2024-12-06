@@ -114,7 +114,7 @@
         <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
@@ -142,7 +142,7 @@
         <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
@@ -164,13 +164,13 @@
         <Param val="sq3" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0.5, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.2, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="triangle" valType="str" updates="None" name="shape"/>
         <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
@@ -192,13 +192,13 @@
         <Param val="sq4" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0.2, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.5, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="triangle" valType="str" updates="None" name="shape"/>
         <Param val="(0.2, 0.2)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
@@ -219,7 +219,7 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="first key" valType="str" updates="constant" name="store"/>
@@ -231,8 +231,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="for (var triangle, _pj_c = 0, _pj_a = [sq1, sq2, sq3, sq4], _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    triangle = _pj_a[_pj_c];&amp;#10;    triangle.fillColor = &quot;black&quot;;&amp;#10;}&amp;#10;if ((target === 1)) {&amp;#10;    sq1.fillColor = &quot;white&quot;;&amp;#10;} else {&amp;#10;    if ((target === 2)) {&amp;#10;        sq2.fillColor = &quot;white&quot;;&amp;#10;    } else {&amp;#10;        if ((target === 3)) {&amp;#10;            sq3.fillColor = &quot;white&quot;;&amp;#10;        } else {&amp;#10;            if ((target === 4)) {&amp;#10;                sq4.fillColor = &quot;white&quot;;&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# Set all squares to black&amp;#10;for triangle in [sq1, sq2, sq3, sq4]:&amp;#10;    triangle.fillColor = 'black'&amp;#10;&amp;#10;# Highlight the target square&amp;#10;if target == 1:&amp;#10;    sq1.fillColor = 'white'&amp;#10;elif target == 2:&amp;#10;    sq2.fillColor = 'white'&amp;#10;elif target == 3:&amp;#10;    sq3.fillColor = 'white'&amp;#10;elif target == 4:&amp;#10;    sq4.fillColor = 'white'&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="import * as random from 'random';&amp;#10;for (var triangle, _pj_c = 0, _pj_a = [sq1, sq2, sq3, sq4], _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    triangle = _pj_a[_pj_c];&amp;#10;    triangle.fillColor = &quot;black&quot;;&amp;#10;}&amp;#10;if ((target === 0)) {&amp;#10;    t = Math.random.choice([1, 2, 3, 4]);&amp;#10;} else {&amp;#10;    t = target;&amp;#10;}&amp;#10;if ((t === 1)) {&amp;#10;    sq1.fillColor = &quot;white&quot;;&amp;#10;} else {&amp;#10;    if ((t === 2)) {&amp;#10;        sq2.fillColor = &quot;white&quot;;&amp;#10;    } else {&amp;#10;        if ((t === 3)) {&amp;#10;            sq3.fillColor = &quot;white&quot;;&amp;#10;        } else {&amp;#10;            if ((t === 4)) {&amp;#10;                sq4.fillColor = &quot;white&quot;;&amp;#10;            } else {&amp;#10;                throw new ValueError(`Unexpected target value: ${t}`);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;t&quot;, t);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random&amp;#10;&amp;#10;# Reset all squares to black&amp;#10;for triangle in [sq1, sq2, sq3, sq4]:&amp;#10;    triangle.fillColor = 'black'&amp;#10;&amp;#10;# Determine the target square&amp;#10;if target == 0:  # If target is 0, choose randomly&amp;#10;    t = random.choice([1, 2, 3, 4])&amp;#10;else:  # Otherwise, use the provided target&amp;#10;    t = target&amp;#10;&amp;#10;# Highlight the selected square&amp;#10;if t == 1:&amp;#10;    sq1.fillColor = 'white'&amp;#10;elif t == 2:&amp;#10;    sq2.fillColor = 'white'&amp;#10;elif t == 3:&amp;#10;    sq3.fillColor = 'white'&amp;#10;elif t == 4:&amp;#10;    sq4.fillColor = 'white'&amp;#10;else:&amp;#10;    raise ValueError(f&quot;Unexpected target value: {t}&quot;)&amp;#10;&amp;#10;# Save the target square value in the data file&amp;#10;thisExp.addData('t', t)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -244,32 +244,64 @@
         <Param val="code" valType="code" updates="None" name="name"/>
       </CodeComponent>
     </Routine>
+    <Routine name="instructions">
+      <RoutineSettingsComponent name="instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Hello!&amp;#10;You will see four triangles displayed horizontally on the screen. During each trial, one of the triangles will light up. Your task is to press the corresponding key as quickly and accurately as possible." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
   </Routines>
   <Flow>
-    <LoopInitiator loopType="TrialHandler" name="trials_2">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('seq', 'random'), ('target', 3)]), OrderedDict([('seq', 'random'), ('target', 1)]), OrderedDict([('seq', 'random'), ('target', 4)]), OrderedDict([('seq', 'random'), ('target', 2)])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="random.csv" valType="file"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="5" valType="num"/>
-      <Param name="name" updates="None" val="trials_2" valType="code"/>
-      <Param name="random seed" updates="None" val="" valType="code"/>
-    </LoopInitiator>
+    <Routine name="instructions"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('seq', 'patterned'), ('target', 1)]), OrderedDict([('seq', 'patterned'), ('target', 3)]), OrderedDict([('seq', 'patterned'), ('target', 2)]), OrderedDict([('seq', 'patterned'), ('target', 4)])]" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('seq', 'patterned'), ('target', 1)]), OrderedDict([('seq', 'patterned'), ('target', 3)]), OrderedDict([('seq', 'patterned'), ('target', 2)]), OrderedDict([('seq', 'patterned'), ('target', 4)]), OrderedDict([('seq', 'random'), ('target', 0)])]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="sequence.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="nReps" updates="None" val="20" valType="num"/>
       <Param name="name" updates="None" val="trials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="trial"/>
     <LoopTerminator name="trials"/>
-    <LoopTerminator name="trials_2"/>
   </Flow>
 </PsychoPy2experiment>
